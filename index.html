@@ -7,173 +7,273 @@
 <!--<![endif]-->
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>LA-LY - Festival cinéphile</title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>LA-LY - Festival de films</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
-	<link rel="author" href="LA-LY" />
+    <link rel="author" href="CHRISTINE." />
 
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/main.css">
-	<script src="js/vendor/modernizr-2.7.1.min.js"></script>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.7.1.min.js"></script>
 </head>
 
 <body class="loading">
-	<!--[if lt IE 7]>
+    <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
-	<header id="menu">
-		<div id="logo" class=menu-item data--100-center-bottom="opacity: 0.5;" data--100-center-top="opacity: 1;" data-100-center-bottom="opacity: 1; "
-		data-100-center-top="opacity: 0.5; " data-anchor-target="#accueil">
-			<a href='#accueil'><img src="img/logo/la-ly-600.png" width=100 /></a>
-		</div>
-		<nav>
-			<ul>
-				<li class=menu-item data--100-center-bottom="opacity: 0.5;" data--100-center-top="opacity: 1;" data-100-center-bottom="opacity: 1;"
-				data-100-center-top="opacity: 0.5;" data-anchor-target="#presentation">
-					<a href='#presentation' data-menu-top="600">Presentation</a>
-				</li>
-				<li class=menu-item data--100-center-bottom="opacity: 0.5;" data--100-center-top="opacity: 1;" data-100-center-bottom="opacity: 1;"
-				data-100-center-top="opacity: 0.5;" data-anchor-target="#programmation">
-					<a href='#programmation'>Programmation</a>
-				</li>
-				<li class=menu-item data--100-center-bottom="opacity: 0.5;" data--100-center-top="opacity: 1;" data-100-center-bottom="opacity: 1;"
-				data-100-center-top="opacity: 0.5;" data-anchor-target="#equipe">
-					<a href='#equipe'>Equipe</a>
-				</li>
-				<li class=menu-item data--100-center-bottom="opacity: 0.5;" data--100-center-top="opacity: 1;" data-100-center-bottom="opacity: 1;"
-				data-100-center-top="opacity: 0.5;" data-anchor-target="#contacts">
-					<a href='#contacts'>Contacts</a>
-				</li>
-			</ul>
-		</nav>
-	</header>
+    <header id="menu">
+        <nav>
+            <div id="logo" class=menu-item data--100-center-bottom="opacity: 0.5;" data--100-center-top="opacity: 1;" data-100-center-bottom="opacity: 1; "
+            data-100-center-top="opacity: 0.5; " data-anchor-target="#accueil">
+                <a href="#accueil"><img src="img/logo/la-ly-500.png" width=100 /></a>
+            </div>
+            <ul class="topnav">
+                <li class="menu-item accueil" data--100-center-bottom="opacity: 0.5;" data--100-center-top="opacity: 1;" data-100-center-bottom="opacity: 1; "
+                data-100-center-top="opacity: 0.5; " data-anchor-target="#accueil">
+                    <a href="#accueil"><img src="img/logo/la-ly-500.png" width=100 /></a>
+                </li>
+                <li class=menu-item data--100-center-bottom="opacity: 0.5;" data--100-center-top="opacity: 1;" data-100-center-bottom="opacity: 1;"
+                data-100-center-top="opacity: 0.5;" data-anchor-target="#presentation">
+                    <a href="#presentation">Presentation</a>
+                </li>
+                <li class=menu-item data--100-center-bottom="opacity: 0.5;" data--100-center-top="opacity: 1;" data-100-center-bottom="opacity: 1;"
+                data-100-center-top="opacity: 0.5;" data-anchor-target="#programmation">
+                    <a href="#programmation">Programmation</a>
+                </li>
+                <li class=menu-item data--100-center-bottom="opacity: 0.5;" data--100-center-top="opacity: 1;" data-100-center-bottom="opacity: 1;"
+                data-100-center-top="opacity: 0.5;" data-anchor-target="#equipe">
+                    <a href="#equipe">Equipe</a>
+                </li>
+                <li class=menu-item data--100-center-bottom="opacity: 0.5;" data--100-center-top="opacity: 1;" data-100-center-bottom="opacity: 1;"
+                data-100-center-top="opacity: 0.5;" data-anchor-target="#contacts">
+                    <a href="#contacts">Contacts</a>
 
-	<main>
+                    <li class="right"><a href="http://twitter.com/[XXX]"><i class="socicon socicon-twitter"></i></a></li>
+                    <li class="right"><a href="http://facebook.com/[XXX]"><i class="socicon socicon-facebook"></i></a></li>
+                    <li class="right"><a href="http://youtube.com/[XXX]"><i class="socicon socicon-youtube"></i></a></li>
+                    <li class="resp-icon">
+                        <a href="javascript:void(0);" onclick="doResponsiveBar()">&#9776;</a>
+                    </li>
+            </ul>
+        </nav>
+    </header>
 
-		<section id="accueil" class="homeSlide">
-			<div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#accueil">
-				<div class="hsContainer">
-					<div class="hsContent" data-center="opacity: 1" data--500-top="opacity: 0" data-anchor-target="#accueil img">
-						<p><img src="img/logo/la-ly-600.png" height=500/></p>
-						<h3>Los Angeles s'invite à Lyon</h3>
-					</div>
-				</div>
-			</div>
-		</section>
 
-		<section id="presentation">
-			<div class="bcg" data-0="background-color:rgb(255,255,255);" data-top="background-color:rgb(240,62,62);" data-anchor-target="#presentation">
-				<div class="hsContainer">
-					<div class="hsContent">
-						<h2 data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 0">Présentation</h2>
-						<p data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 0">
-							Epratemporum as dolluptat evendit, sapid molluptate poreriae ipsam re prestrum fugiant otatium qui rataspe rferumquedi tem
-							quam fugitaq uiasitibus por sit eatem volorio torempe llanitioria sus aut odis adit estemped ese ipsunditut venis
-							moluptate explam ute conest ipsam aliquia coresto endi doluptae officillit, con rerspel lanist iumenima qui dolut
-							arum il maios ea dolupta abo. Icatect inusciet volectaquia di ut et am, cusae dollabo. Am hicitatempos es audaeruptam
-							et que et eat. Erspedi taescia ipsandel ipsanda verunt. Tota ilignimus doluptam, sum qui dolore, totatiis endant la
-							quatatiae acius. Cepedip sumqui sunt volupta erferro modigniame doluptatem. Ut exceprem quatenduci diae dolupta temporae
-							enis
-						</p>
-					</div>
-				</div>
-			</div>
-		</section>
+    <div class="parallax-image-wrapper" data-anchor-target="#accueil" data-bottom-top="transform:translateY(200%)" data-top-bottom="transform:translateY(0)">
 
-		<section id="programmation" class="homeSlide">
-			<div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-bottom-top="background-position: 50% 100px;"
-			data-anchor-target="#programmation">
-				<div class="hsContainer">
-					<div class="hsContent" data-center="bottom: 200px; opacity: 1" data-top="bottom: 1200px; opacity: 0.5" data--100-bottom="bottom: 0px; opacity: 0;"
-					data-anchor-target="#programmation h2">
-						<h2>Programmation</h2>
-						<p data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 0">
-							Epratemporum as dolluptat evendit, sapid molluptate poreriae ipsam re prestrum fugiant otatium qui rataspe rferumquedi tem
-							quam fugitaq uiasitibus por sit eatem volorio torempe llanitioria sus aut odis adit estemped ese ipsunditut venis
-							moluptate explam ute conest ipsam aliquia coresto endi doluptae officillit, con rerspel lanist iumenima qui dolut
-							arum il maios ea dolupta abo. Icatect inusciet volectaquia di ut et am, cusae dollabo. Am hicitatempos es audaeruptam
-							et que et eat. Erspedi taescia ipsandel ipsanda verunt. Tota ilignimus doluptam, sum qui dolore, totatiis endant la
-							quatatiae acius. Cepedip sumqui sunt volupta erferro modigniame doluptatem. Ut exceprem quatenduci diae dolupta temporae
-							enis
-						</p>
-					</div>
-				</div>
-			</div>
-		</section>
+        <div class="parallax-image" style="background-image:url(img/background/01-Accueil.jpg)" data-anchor-target="#accueil" data-bottom-top="transform: translateY(-80%);"
+        data-top-bottom="transform: translateY(80%);">
 
-		<section id="equipe" class="homeSlide">
-			<div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-bottom-top="background-position: 50% 100px;"
-			data-anchor-target="#equipe">
-				<div class="hsContainer">
-					<div class="hsContent" data-center="bottom: 200px; opacity: 1" data-100-top="bottom: 1200px; opacity: 0.5" data--400-bottom="bottom: 0px; opacity: 0;"
-					data-anchor-target="#equipe table">
-						<h2>Equipe</h2>
-						<table>
-							<tr>
-								<td>
-									<div class="pic">
-										<div class="bottomleft">
-											<p><strong>Céline</strong><br/><span>Directrice de Comm'</span></p>
-										</div>
-									</div>
-								</td>
-								<td>
-									<div class="pic">
-										<div class="bottomleft">
-											<p><strong>Brian</strong><br/><span>Directeur de Prog'</span></p>
-										</div>
-									</div>
-								</td>
-								<td>
-									<div class="pic">
-										<div class="bottomleft">
-											<p><strong>Léo</strong><br/><span>Graphiste</span></p>
-										</div>
-									</div>
-								</td>
-								<td>
-									<div class="pic">
-										<div class="bottomleft">
-											<p><strong>Bill</strong><br/><span>Web-Dev'</span></p>
-										</div>
-									</div>
-								</td>
-							</tr>
-						</table>
-					</div>
-				</div>
-			</div>
-		</section>
+        </div>
+    </div>
+    <div class="parallax-image-wrapper" data-anchor-target="#presentation + .gap" data-bottom-top="transform:translateY(200%)"
+    data-top-bottom="transform:translateY(0)">
 
-		<section id="contacts" class="homeSlide">
-			<div class="bcg" data-300-bottom="opacity: 0;" data-100-bottom="opacity: 1;" data-anchor-target="#contacts">
-				<div class="hsContainer">
-					<div class="hsContent" data-bottom-top="opacity: 0;" data-center="opacity: 1" data-anchor-target="#contacts">
-						<h2>Contacts</h2>
-						<ul>
-							<li>Céline Bonan : 06 89 47 58 20</li>
-							<li>Brian Hebert : 06 45 74 25 85</li>
-						</ul>
-						<p> FB, Twittos & cie. </p>
-					</div>
-				</div>
-			</div>
-		</section>
-	</main>
+        <div class="parallax-image" style="background-image:url(img/background/09.jpg)" data-anchor-target="#presentation + .gap"
+        data-bottom-top="transform: translateY(-80%);" data-top-bottom="transform: translateY(80%);">
 
-	<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->d
-	<script>
-		window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')
-	</script>
-	<script src="js/imagesloaded.js"></script>
-	<script src="js/skrollr.js"></script>
-	<script src="js/main.js"></script>
+        </div>
+    </div>
+    <div class="parallax-image-wrapper" data-anchor-target="#equipe + .gap" data-bottom-top="transform:translateY(200%)" data-top-bottom="transform:translateY(0)">
+
+        <div class="parallax-image" style="background-image:url(img/background/04.jpg)" data-anchor-target="#equipe + .gap" data-bottom-top="transform: translateY(-80%);"
+        data-top-bottom="transform: translateY(80%);">
+
+        </div>
+    </div>
+    <div class="parallax-image-wrapper" data-anchor-target="#contacts + .gap" data-bottom-top="transform:translateY(200%)" data-top-bottom="transform:translateY(0)">
+
+        <div class="parallax-image" style="background-image:url(img/background/10.jpg)" data-anchor-target="#contacts + .gap" data-bottom-top="transform: translateY(-80%);"
+        data-top-bottom="transform: translateY(80%);">
+
+        </div>
+    </div>
+
+    <div id="skrollr-body">
+
+        <div id="accueil" class="gap" style="background-image:url(img/background/01-Accueil.jpg); ">
+            <h1><img src="img/logo/la-ly-500.png" /></h1>
+            <h3>Los Angeles s'invite à Lyon</h3>
+        </div>
+
+        <div id="presentation" class="content">
+
+            <h2>Présentation</h2>
+
+            <div>
+                <p data-300-center-top="transform: scale(0.8); opacity: 0" data-300-center-center="transform: scale(1); opacity: 1">
+                    Bienvenue sur le site du festival de cinéma LA-LY « Los Angeles s’invite à Lyon ».
+                </p>
+
+                <p data-200-center-top="transform: scale(0.8); opacity: 0" data-200-center-center="transform: scale(1); opacity: 1">
+                    Toute l’équipe de <span class="christine">CHRISTINE.</span> enchaîne les nuits blanches pour vous concocter
+                    un festival qui sent bon la Californie à coup de films cultes et moins cultes – mais tous aussi biens
+                    –, de concerts et de guests.
+                </p>
+
+                <p data-100-center-top="transform: scale(0.8); opacity: 0" data-100-center-center="transform: scale(1); opacity: 1">
+                    Gosh que ça promet… Retrouvez-nous sur les réseaux sociaux et soyez les premiers avertis de l’avancement du festival le plus
+                    cool du siècle (au moins).
+                </p>
+            </div>
+        </div>
+
+        <div class="gap" style="background-image:url(img/background/09.jpg); "></div>
+
+        <div id="programmation">
+            <div class="scroll-pause" data-anchor-target="#programmation" data-100p-top-top="transform:translateY(100%);" data-top-top="transform:translateY(0%)"
+            data--150p-top-top="" data--300p-top-top="transform:translateY(-150%)">
+
+                <h2>Programmation</h2>
+                <div class="row" data-anchor-target="#programmation" data-top-top="transform: translateX(0%);" data--150p-top-top="transform: translateX(-50%);">
+                    <div style="background-color: #e83d3c;">
+                        <p><strong>Film #1</strong> <span>Dévoilé bientôt</span></p>
+                        <i class="material-icons">help</i>
+                    </div>
+
+                    <div style="background-color: #e83d3c;">
+                        <p><strong>Film #2</strong> <span>Dévoilé bientôt</span></p>
+                        <i class="material-icons">help</i>
+                    </div>
+
+                    <div style="background-color: #e83d3c;">
+                        <p><strong>Film #3</strong> <span>Dévoilé bientôt</span></p>
+                        <i class="material-icons">help</i>
+                    </div>
+
+                    <div style="background-color: #e83d3c;">
+                        <p><strong>Film #4</strong> <span>Dévoilé bientôt</span></p>
+                        <i class="material-icons">help</i>
+                    </div>
+
+                    <div style="background-color: #e83d3c;">
+                        <p><strong>Film #5</strong> <span>Dévoilé bientôt</span></p>
+                        <i class="material-icons">help</i>
+                    </div>
+
+                    <div style="background-color: #e83d3c;">
+                        <p><strong>Film #6</strong> <span>Dévoilé bientôt</span></p>
+                        <i class="material-icons">help</i>
+                    </div>
+
+                    <div style="background-color: #e83d3c;">
+                        <p><strong>Film #7</strong> <span>Dévoilé bientôt</span></p>
+                        <i class="material-icons">help</i>
+                    </div>
+
+                    <div style="background-color: #e83d3c;">
+                        <p><strong>Film #8</strong> <span>Dévoilé bientôt</span></p>
+                        <i class="material-icons">help</i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="equipe">
+
+            <h2>Equipe</h2>
+
+            <div class="row">
+                <div class="celine" data-150-bottom-center="transform: rotateY(-90deg); opacity: 0" data-150-center-center="transform: rotate(0); opacity: 1">
+                    <p><strong>Céline</strong> <span>Directrice Com'</span></p>
+                </div>
+
+                <div class="brian" data-100-bottom-center="transform: rotateY(-90deg); opacity: 0" data-100-center-center="transform: rotate(0); opacity: 1">
+                    <p><strong>Brian</strong> <span>Directeur Prog'</span></p>
+                </div>
+
+                <div class="mandy" data-50-bottom-center="transform: rotateY(-90deg); opacity: 0" data-50-center-center="transform: rotate(0); opacity: 1">
+                    <p><strong>Mandy</strong> <span>Assistante Prog'</span></p>
+                </div>
+
+                <div class="amandine" data-50-bottom-center="transform: rotateY(-90deg); opacity: 0" data-50-center-center="transform: rotate(0); opacity: 1">
+                    <p><strong>Amandine</strong> <span>Chargée Com'</span></p>
+                </div>
+
+                <div class="florent" data-50-bottom-center="transform: rotateY(-90deg); opacity: 0" data-50-center-center="transform: rotate(0); opacity: 1">
+                    <p><strong>Florent</strong> <span>Chargé Com'</span></p>
+                </div>
+
+                <div class="leo" data-50-bottom-center="transform: rotateY(-90deg); opacity: 0" data-50-center-center="transform: rotate(0); opacity: 1">
+                    <p><strong>Léo</strong> <span>Graphiste</span></p>
+                </div>
+
+                <div class="bill" data-50-bottom-center="transform: rotateY(-90deg); opacity: 0" data-50-center-center="transform: rotate(0); opacity: 1">
+                    <p><strong>Bill</strong> <span>Web-Dev'</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gap" style="background-image:url(img/background/04.jpg); "></div>
+
+        <div id="contacts">
+
+            <h2>Contacts</h2>
+
+            <div id="telephone" class="row">
+                <div class="el" data-100-bottom-top="transform: translateX(-200px); opacity: 0" data-center-top="transform: translateX(0px); opacity: 1">
+                    <i class="material-icons">phone</i>
+                    <p><strong>+33 (0)6 89 47 58 20</strong>
+                        <br/>Céline</p>
+                </div>
+                <div class="el" data-100-bottom-top="transform: translateX(200px); opacity: 0" data-center-top="transform: translateX(0px); opacity: 1">
+                    <i class="material-icons">phone</i>
+                    <p><strong>+33 (0)6 45 74 25 85</strong>
+                        <br/>Brian</p>
+                </div>
+            </div>
+            <div id="email" class="row">
+                <div class="el" data-100-bottom-top="transform: translateY(200px); opacity: 0" data-center-top="transform: translateY(0px); opacity: 1">
+                    <a href="mailto:christine.asso69@gmail.com"><i class="material-icons">email</i></a>
+                    <p><a href="mailto:christine.asso69@gmail.com"><strong>christine.asso69@gmail.com</strong></a></p>
+                </div>
+            </div>
+            <div id="reseaux" class="row">
+                <div class="el" data-100-bottom-top="transform: translate(-100px,200px); opacity: 0" data-center-top="transform: translateY(0px,0px); opacity: 1">
+                    <a href="http://twitter.com/[XXX]"><i class="socicon socicon-twitter"></i></a>
+                </div>
+                <div class="el" data-100-bottom-top="transform: translateY(200px); opacity: 0" data-center-top="transform: translateY(0px); opacity: 1">
+                    <a href="http://facebook.com/[XXX]"><i class="socicon socicon-facebook"></i></a>
+                </div>
+                <div class="el" data-100-bottom-top="transform: translate(100px,200px); opacity: 0" data-center-top="transform: translate(0px,0px); opacity: 1">
+                    <a href="http://youtube.com/[XXX]"><i class="socicon socicon-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="gap gap-small" style="background-image:url(img/background/10.jpg);"></div>
+
+
+
+
+        <footer>
+
+            <div class="footer-left">
+
+                <h3><span class="christine">Christine.</span></h3>
+                <p class="footer-company-name">&copy; 2016</p>
+
+            </div>
+
+        </footer>
+
+
+    </div>
+
+
+
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')
+    </script>
+    <script src="js/main.js"></script>
 
 </body>
 
